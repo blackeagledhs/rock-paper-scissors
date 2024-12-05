@@ -1,0 +1,71 @@
+/* Reset */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Main container */
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+/* Scoreboard */
+.scoreboard {
+    margin-bottom: 20px;
+}
+
+.scoreboard p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Choices buttons */
+.choices {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.choice {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choice:hover {
+    background-color: #45a049;
+}
+
+/* Result */
+.result {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
